@@ -14,7 +14,7 @@ GROUP BY last_name
 WHERE last_name LIKE 'Allen'
 
 /* which produces an error
-WHERE can't refer to groups or aggregates or calculations
+WHERE can't refer to groups or aggregates
 WHERE can't appear after GROUP BY
 (remove GROUP BY in above script to correct)
 
