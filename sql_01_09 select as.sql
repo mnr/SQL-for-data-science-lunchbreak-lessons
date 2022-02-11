@@ -6,6 +6,7 @@ SELECT [AS]
 assign an alias to a column or value
 ... can be used with GROUP BY, ORDER BY, or HAVING clauses
 ... can't be used with where
+... changes the name of the column in results table
 
 Sample Database: Sakila - https://dev.mysql.com/doc/sakila/en/
 */
