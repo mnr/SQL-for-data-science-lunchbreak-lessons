@@ -11,7 +11,7 @@ FLOOR(i + RAND() * (j − i))
 Sample Database: Sakila - https://dev.mysql.com/doc/sakila/en/
 */
 
-
+/*
 SELECT 
 -- last_name, rand()
 -- last_name, rand(3)
@@ -19,3 +19,21 @@ SELECT
 last_name, actor_id, FLOOR(1 + rand() * (actor_id - 1))
 FROM
     actor
+*/    
+
+/* sorts all rows by a random number
+select
+	last_name
+from
+	actor
+order by rand()
+*/
+
+/* return random rows
+select
+	last_name
+from
+	actor
+WHERE rand() > .5
+*/
+
