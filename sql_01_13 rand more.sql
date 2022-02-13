@@ -24,3 +24,5 @@ from
 WHERE rand() > .5
 */
 
+-- what kind of distribution does rand() produce? 
+-- see R code in sql_01_13 rand plot.R
