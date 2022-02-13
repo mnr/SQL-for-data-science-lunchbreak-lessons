@@ -21,19 +21,5 @@ FROM
     actor
 */    
 
-/* sorts all rows by a random number
-select
-	last_name
-from
-	actor
-order by rand()
-*/
 
-/* return random rows
-select
-	last_name
-from
-	actor
-WHERE rand() > .5
-*/
 
