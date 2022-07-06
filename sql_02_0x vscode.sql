@@ -8,4 +8,4 @@
 
 # add a connection to an SQL DATABASE
 
-# Extension: SQL Lint
+# lint and code cleanup missing without install 
