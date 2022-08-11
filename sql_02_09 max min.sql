@@ -17,7 +17,7 @@ GROUP BY
 	last_name;
 
 # GREATEST/LEAST vs MAX/MIN
-# this doesn't work
+# this doesnt work
 SELECT 
 	inventory_id,
     film_id,
