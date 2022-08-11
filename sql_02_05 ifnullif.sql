@@ -6,7 +6,7 @@ select ifnull(NULL,450); # 450
 
 # practical example
 select last_name, picture from staff; # returns null picture
-select last_name, ifnull(picture,"https://default.jpg") from staff; 
+select last_name, ifnull(picture,0x00000000) from staff; 
 
 # nullif(expr1, expr2)
 select nullif(335,335); # NULL
