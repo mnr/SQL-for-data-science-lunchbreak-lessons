@@ -9,6 +9,8 @@ SELECT last_update,
 FROM
     actor;
     
+
+    
 SELECT last_update,
     CASE
         WHEN actor_id = 3 THEN first_name
