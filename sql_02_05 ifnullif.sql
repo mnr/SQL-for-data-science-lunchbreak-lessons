@@ -16,4 +16,6 @@ select nullif(335,350); # 335
 # div by zero error (sometimes - depends on ERROR_FOR_DIVISION_BY_ZERO
 set @somenumber := 0;
 select 1/@somenumber; 
+SHOW WARNINGS;
 select 1/nullif(@somenumber,0);
+SHOW WARNINGS;
