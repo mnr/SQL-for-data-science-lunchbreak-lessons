@@ -7,9 +7,10 @@
 # if expr1 == TRUE then expr2 else expr3
 # ternary operator 
 SELECT 
+    actor_id,
     IF(actor_id > 25, first_name, last_name),
     IF(actor_id > 25,
-        'First name',
-        'Last name')
+        'Later member',
+        'Early member')
 FROM
     actor

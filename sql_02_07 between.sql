@@ -7,8 +7,9 @@ FROM
     actor
 ORDER BY actor_id;
 
-/*
-# here's NOT between
+
+
+# heres NOT between
 SELECT 
     actor_id,
     IF(actor_id NOT BETWEEN 10 AND 20,
@@ -17,4 +18,3 @@ SELECT
 FROM
     actor
 ORDER BY actor_id;
-*/
