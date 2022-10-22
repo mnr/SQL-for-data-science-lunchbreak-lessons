@@ -27,3 +27,6 @@ SELECT
     IF('12345' LIKE '%3_5',
         'Itz a match!',
         'Not a match');
+
+# want to use regular expressions?
+# use regexp_like() covered previously

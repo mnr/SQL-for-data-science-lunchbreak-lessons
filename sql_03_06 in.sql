@@ -1,3 +1,6 @@
+# "in" is similar to "like"
+# but with multiple choices
+
 SELECT 
     IF('brillig' IN ('Twas' , 'brillig', 'and the', 'slithey', 'toves'),
         'Itz a match!',
