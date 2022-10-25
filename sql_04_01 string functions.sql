@@ -1,0 +1,37 @@
+
+-- ASCII()	Return numeric value of left-most character
+-- BIN()	Return a string containing binary representation of a number
+-- CHAR()	Return the character for each integer passed
+-- ELT()	Return string at index number
+-- EXPORT_SET()	Return a string such that for every bit set in the value bits, you get an on string and for every unset bit, you get an off string
+-- FIELD()	Index (position) of first argument in subsequent arguments
+-- FIND_IN_SET()	Index (position) of first argument within second argument
+-- FORMAT()	Return a number formatted to specified number of decimal places
+-- FROM_BASE64()	Decode base64 encoded string and return result
+-- HEX()	Hexadecimal representation of decimal or string value
+-- INSERT()	Insert substring at specified position up to specified number of characters
+-- LCASE()	Synonym for LOWER()
+-- LEFT()	Return the leftmost number of characters as specified
+-- LOAD_FILE()	Load the named file
+-- LOWER()	Return the argument in lowercase
+-- LPAD()	Return the string argument, left-padded with the specified string
+-- MAKE_SET()	Return a set of comma-separated strings that have the corresponding bit in bits set
+-- MATCH()	Perform full-text search
+-- MID()	Return a substring starting from the specified position
+-- NOT LIKE	Negation of simple pattern matching
+-- NOT REGEXP	Negation of REGEXP
+-- OCT()	Return a string containing octal representation of a number
+-- ORD()	Return character code for leftmost character of the argument
+-- POSITION()	Synonym for LOCATE()
+-- QUOTE()	Escape the argument for use in an SQL statement
+-- REPEAT()	Repeat a string the specified number of times
+-- REPLACE()	Replace occurrences of a specified string
+-- REVERSE()	Reverse the characters in a string
+-- RIGHT()	Return the specified rightmost number of characters
+-- RPAD()	Append string the specified number of times
+-- SPACE()	Return a string of the specified number of spaces
+-- TO_BASE64()	Return the argument converted to a base-64 string
+-- UCASE()	Synonym for UPPER()
+-- UNHEX()	Return a string containing hex representation of a number
+-- UPPER()	Convert to uppercase
+-- WEIGHT_STRING()	Return the weight string for a string
