@@ -22,7 +22,6 @@
 -- NOT REGEXP	Negation of REGEXP
 -- OCT()	Return a string containing octal representation of a number
 -- ORD()	Return character code for leftmost character of the argument
--- POSITION()	Synonym for LOCATE()
 -- QUOTE()	Escape the argument for use in an SQL statement
 -- REPEAT()	Repeat a string the specified number of times
 -- REPLACE()	Replace occurrences of a specified string
