@@ -1,6 +1,4 @@
 # strcmp
-
-# STILL WORKING ON THIS...
         
 set @firstString := 'bbb';
 set @secondString := 'bbb';
