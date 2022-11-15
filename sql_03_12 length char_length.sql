@@ -1,5 +1,10 @@
 # length, char_length, character_length, octet_length, bit_length
 
+-- length
+set @myWord := "hello";
+select length(@myWord),
+    char_length(@myWord)
+
 -- length vs char_length
 -- notice 2-byte characters
 set @myWord := "こんにちは";
