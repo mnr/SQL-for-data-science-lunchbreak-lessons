@@ -3,3 +3,5 @@
 show variables like "%version%"
 
 show variables like "version_comment"
+
+show variables
