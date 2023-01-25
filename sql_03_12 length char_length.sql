@@ -3,8 +3,9 @@
 -- length vs char_length
 -- notice 2-byte characters
 set @myWord := "こんにちは";
+
 select length(@myWord),
-    char_length(@myWord)
+    char_length(@myWord);
 
 -- length & octet_length are synonyms
 set @myWord := "こんにちは";
