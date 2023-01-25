@@ -2,7 +2,7 @@
 # regexp_substr()
 # substring_index
 
-# regexp_inst() returns index of match
+# regexp_instr() returns index of match
 SELECT regexp_instr(first_name, '^*n[aeiou]'), first_name
 FROM actor
 
@@ -16,11 +16,11 @@ order by nIdx DESC
 # substring_index is similar but no regex
 # also needs count
 # substring_index(string, searchFor, count)
-SELECT substring_index(first_name, 'N', 2), first_name
+SELECT first_name, substring_index(first_name, 'N', 2)
 FROM actor
 
-# compare to regexp_substr
-SELECT regexp_substr(first_name, '^*n[aeiou]'), first_name
+# compare substring_index to regexp_substr
+SELECT first_name, regexp_substr(first_name, '^*n[aeiou]')
 FROM actor
 
 # and the real life example

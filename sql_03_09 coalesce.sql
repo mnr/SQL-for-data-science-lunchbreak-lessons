@@ -6,7 +6,6 @@ SELECT
     COALESCE("This", NULL, "another"),
     COALESCE(null, NULL, null);
 
-# real life problem
 # address2 is sometimes NULL...or not
 # Task: change NULL to " "
 # and leave Box # alone
