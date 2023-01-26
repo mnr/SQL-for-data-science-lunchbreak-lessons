@@ -2,22 +2,20 @@
 Concatenation:
 CONCAT
 CONCAT_WS
-|| - which is or
 
 Sample Database: Sakila - https://dev.mysql.com/doc/sakila/en/
 */
 SELECT 
-    concat(first_name, " ", last_name)
+    concat("Hello ", first_name, "::",last_name)
 FROM
     actor
 WHERE
-    last_name = "CAGE"
+    last_name = "Cage" ;
     
-/*
-    SELECT 
-    concat_WS('::',"Hello" , first_name)
+
+SELECT 
+    concat_WS('::',"Hello" , first_name, last_name)
 FROM
     actor
 WHERE
     last_name = 'Cage' ;
-*/
