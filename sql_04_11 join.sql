@@ -37,6 +37,10 @@ order by population DESC
 /*
 Only rows with a match are shown in result
 
-In MySQL, JOIN, CROSS JOIN, and INNER JOIN are syntactic equivalents (they can replace each other). In standard SQL, they are not equivalent. INNER JOIN is used with an ON clause, CROSS JOIN is used otherwise.
+In MySQL, JOIN, CROSS JOIN, and INNER JOIN are syntactic equivalents 
+-- (they can replace each other). 
+-- In standard SQL, they are not equivalent. 
+-- INNER JOIN is used with an ON clause, 
+-- CROSS JOIN is used otherwise.
 https://dev.mysql.com/doc/refman/8.0/en/join.html
 */
