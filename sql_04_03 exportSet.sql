@@ -17,3 +17,9 @@ select @sensorData := actor_id,
     BIN(@sensorData),
     MAKE_SET(@sensorData, "twas", "bril","and","the","slithey")
 FROM actor
+
+-- FIND_IN_SET()	
+-- Index (position) of first argument within second argument
+select @sensorData := actor_id,
+    FIND_IN_SET(@sensorData, "58,145,47")
+FROM actor
