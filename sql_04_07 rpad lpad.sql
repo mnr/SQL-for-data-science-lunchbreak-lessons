@@ -3,5 +3,6 @@
 
 select 
     rpad(first_name, 12, "_"),
+    actor_id,
     lpad(actor_id,5,"0")
 from actor
