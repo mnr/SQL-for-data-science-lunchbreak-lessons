@@ -9,6 +9,7 @@ group by film.film_id
 order by rentals 
 
 -- left join preserves all entries of film
+-- hint: look for ALICE FANTASIA
 
 -- 1000 entries
 select title
