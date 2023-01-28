@@ -9,7 +9,7 @@ from customer
 join address 
 ON customer.address_id = address.address_id;
 
--- add inner. remove "ON"
+-- add inner. 
 select first_name,
     last_name,
     postal_code
@@ -19,13 +19,8 @@ inner join address
 -- customer = 599 records
 -- address = 603
 -- 599 * 603 = 361197 records 
--- "inner" makes no difference
--- significant: missing "on"
-
 
 -- returns 599 records
--- "inner" makes no difference
--- significant: "ON" (overrides inner)
 select first_name,
     last_name,
     postal_code
