@@ -1,0 +1,18 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "password": "Sharp-Tryout-Stahl-Kkkk-Dylan-1970-86Th",
+            "username": "root",
+            "database": "sakila",
+            "name": "local macbook",
+            "connectionTimeout": 15
+        }
+    ]
+}
